@@ -57,6 +57,7 @@ function loadPokemonItems(offset, limit) {
                 closeButton.addEventListener('click', () => {
                     modal.style.display = 'none'
                     modalStatsPokemon.innerHTML = ""
+                    pokemonDetail.classList.remove(`${pokemon.type}`)
                 })
 
                 
